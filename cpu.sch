@@ -1,0 +1,407 @@
+EESchema Schematic File Version 2  date Fri 06 Jun 2014 02:01:51 PM ART
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PIC32MX250F128B
+LIBS:opto_npn_2
+LIBS:lm1117
+LIBS:lm2596
+LIBS:L298
+LIBS:tcrt5000
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 2 5
+Title ""
+Date "23 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2500 2050 2600 2050
+Wire Wire Line
+	7900 2500 8000 2500
+Wire Wire Line
+	8000 2500 8000 2000
+Wire Wire Line
+	9550 1700 7900 1700
+Wire Wire Line
+	7900 1700 7900 2050
+Wire Wire Line
+	9550 1800 9050 1800
+Connection ~ 2900 6200
+Wire Wire Line
+	1700 6200 9350 6200
+Wire Wire Line
+	8000 2000 9550 2000
+Wire Wire Line
+	7900 5150 8550 5150
+Wire Wire Line
+	7900 4750 8550 4750
+Wire Wire Line
+	7900 4350 8550 4350
+Wire Wire Line
+	8550 3900 7900 3900
+Wire Wire Line
+	7900 3500 8550 3500
+Wire Wire Line
+	8550 3100 7900 3100
+Wire Wire Line
+	2350 2500 2100 2500
+Wire Wire Line
+	1700 6200 1700 2450
+Wire Wire Line
+	2700 6150 2700 6200
+Connection ~ 2700 6200
+Wire Wire Line
+	2900 6200 2900 5400
+Wire Wire Line
+	2700 5400 2700 5350
+Wire Wire Line
+	2700 5350 3350 5350
+Wire Wire Line
+	3350 5350 3350 5500
+Wire Wire Line
+	1850 5500 2250 5500
+Wire Wire Line
+	1850 5500 1850 6150
+Wire Wire Line
+	1850 6150 2550 6150
+Wire Wire Line
+	2400 5300 2400 5100
+Wire Wire Line
+	3350 4900 2100 4900
+Connection ~ 1700 3400
+Wire Wire Line
+	2400 5300 2100 5300
+Wire Wire Line
+	2100 4600 3000 4600
+Wire Wire Line
+	2600 3050 2200 3050
+Wire Wire Line
+	3250 3050 3250 3150
+Wire Wire Line
+	3250 3150 2100 3150
+Connection ~ 1700 3150
+Wire Wire Line
+	2200 2850 3350 2850
+Connection ~ 3250 2050
+Wire Wire Line
+	3250 2500 3250 2050
+Connection ~ 2200 2500
+Wire Wire Line
+	1700 2050 1900 2050
+Wire Wire Line
+	3350 3850 3200 3850
+Connection ~ 1700 3700
+Connection ~ 3250 3050
+Connection ~ 1700 4600
+Connection ~ 2400 4600
+Wire Wire Line
+	3350 4200 3000 4200
+Wire Wire Line
+	3000 4200 3000 4000
+Wire Wire Line
+	3000 4600 3000 4400
+Wire Wire Line
+	3000 4400 3350 4400
+Connection ~ 2400 4000
+Connection ~ 1700 4000
+Connection ~ 1700 4900
+Connection ~ 1700 5300
+Wire Wire Line
+	3200 3850 3200 3550
+Wire Wire Line
+	3200 3550 3350 3550
+Connection ~ 3200 3700
+Connection ~ 2200 2850
+Wire Wire Line
+	2200 3050 2200 2400
+Connection ~ 1700 2500
+Wire Wire Line
+	3100 3050 3350 3050
+Wire Wire Line
+	3000 4000 2100 4000
+Wire Wire Line
+	1700 3700 3350 3700
+Wire Wire Line
+	2100 3400 3350 3400
+Wire Wire Line
+	2400 5100 3350 5100
+Wire Wire Line
+	3200 4750 3200 4900
+Connection ~ 3200 4900
+Connection ~ 2250 5300
+Wire Wire Line
+	2550 5400 2550 5300
+Wire Wire Line
+	2550 5300 3350 5300
+Wire Wire Line
+	2900 5400 2800 5400
+Wire Wire Line
+	2800 6150 2800 6200
+Connection ~ 2800 6200
+Wire Wire Line
+	2850 2500 3350 2500
+Connection ~ 3250 2500
+Wire Wire Line
+	8550 2900 7900 2900
+Wire Wire Line
+	7900 3300 8550 3300
+Wire Wire Line
+	7900 3700 8550 3700
+Wire Wire Line
+	7900 4150 8550 4150
+Wire Wire Line
+	7900 4550 8550 4550
+Wire Wire Line
+	7900 4950 8550 4950
+Wire Wire Line
+	7900 5350 8550 5350
+Wire Wire Line
+	9550 2100 8100 2100
+Wire Wire Line
+	7900 2050 3100 2050
+Wire Wire Line
+	2250 5500 2250 5000
+Wire Wire Line
+	2250 5000 2400 5000
+Wire Wire Line
+	9050 1900 9550 1900
+Wire Wire Line
+	9350 6200 9350 1900
+Connection ~ 9350 1900
+Wire Wire Line
+	8100 2100 8100 2700
+Wire Wire Line
+	8100 2700 7900 2700
+Text HLabel 2400 5000 2    60   Output ~ 0
+5V_USB
+Text HLabel 9050 1900 0    60   Input ~ 0
+GND
+$Comp
+L PIC32MX250F128B U4
+U 1 1 52CC511A
+P 5650 3950
+F 0 "U4" H 5650 5650 50  0000 C CNN
+F 1 "PIC32MX250F128B" H 7200 2250 50  0000 C CNN
+F 2 "MODULE" H 5650 3850 50  0001 C CNN
+F 3 "DOCUMENTATION" H 5650 3700 50  0001 C CNN
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 9050 1800 0    60   Input ~ 0
+3.3V
+Text HLabel 8550 4150 2    60   Input ~ 0
+RB5
+Text HLabel 8550 4550 2    60   Input ~ 0
+RB8
+Text HLabel 8550 4350 2    60   Input ~ 0
+RB7
+Text HLabel 8550 5150 2    60   Input ~ 0
+RB14
+Text HLabel 8550 5350 2    60   Input ~ 0
+RB15
+Text HLabel 8550 4950 2    60   Input ~ 0
+RB13
+Text HLabel 8550 4750 2    60   Input ~ 0
+RB9
+Text HLabel 8550 3300 2    60   Input ~ 0
+RB2
+Text HLabel 8550 3500 2    60   Input ~ 0
+RB3
+Text HLabel 8550 3900 2    60   Input ~ 0
+RA4
+Text HLabel 8550 3700 2    60   Input ~ 0
+RB4
+Text HLabel 8550 2900 2    60   Input ~ 0
+RB0
+Text HLabel 8550 3100 2    60   Input ~ 0
+RB1
+$Comp
+L USB_1 J1
+U 1 1 52CC5BB7
+P 2350 5750
+F 0 "J1" H 2200 6150 60  0000 C CNN
+F 1 "USB_1" H 2325 5150 60  0001 C CNN
+	1    2350 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JUMPER JP2
+U 1 1 52CC7CD1
+P 2200 2050
+F 0 "JP2" H 2200 2200 60  0000 C CNN
+F 1 "JUMPER" H 2200 1970 40  0000 C CNN
+	1    2200 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9550 2200
+$Comp
+L CONN_6 P9
+U 1 1 533CA02B
+P 9900 1950
+F 0 "P9" V 9850 1950 60  0000 C CNN
+F 1 "ICSP" V 9950 1950 60  0000 C CNN
+	1    9900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C15
+U 1 1 52CC59DB
+P 1900 5300
+F 0 "C15" H 1950 5400 50  0000 L CNN
+F 1 ".1uF" H 1950 5200 50  0000 L CNN
+	1    1900 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C14
+U 1 1 52CC59D9
+P 1900 4900
+F 0 "C14" H 1950 5000 50  0000 L CNN
+F 1 ".1uF" H 1950 4800 50  0000 L CNN
+	1    1900 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3,3V #PWR07
+U 1 1 52CC5985
+P 3200 4750
+F 0 "#PWR07" H 3200 4710 30  0001 C CNN
+F 1 "+3,3V" H 3200 4860 30  0000 C CNN
+	1    3200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 52CC592B
+P 1900 4600
+F 0 "C13" H 1950 4700 50  0000 L CNN
+F 1 "22pF" H 1950 4500 50  0000 L CNN
+	1    1900 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C12
+U 1 1 52CC5929
+P 1900 4000
+F 0 "C12" H 1950 4100 50  0000 L CNN
+F 1 "22pF" H 1950 3900 50  0000 L CNN
+	1    1900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 52CC5907
+P 2400 4300
+F 0 "X1" H 2400 4450 60  0000 C CNN
+F 1 "CRYSTAL" H 2400 4150 60  0000 C CNN
+	1    2400 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C9
+U 1 1 52CC55CC
+P 1700 2250
+F 0 "C9" H 1750 2350 50  0000 L CNN
+F 1 "0.1uF" H 1750 2150 50  0000 L CNN
+	1    1700 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R15
+U 1 1 52CC55B3
+P 2850 2050
+F 0 "R15" V 2930 2050 50  0000 C CNN
+F 1 "470" V 2850 2050 50  0000 C CNN
+	1    2850 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R16
+U 1 1 52CC558B
+P 2600 2500
+F 0 "R16" V 2680 2500 50  0000 C CNN
+F 1 "10K" V 2600 2500 50  0000 C CNN
+	1    2600 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C10
+U 1 1 52CC546F
+P 1900 2500
+F 0 "C10" H 1950 2600 50  0000 L CNN
+F 1 "0.1uF" H 1950 2400 50  0000 L CNN
+	1    1900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R17
+U 1 1 52CC5443
+P 2850 3050
+F 0 "R17" V 2930 3050 50  0000 C CNN
+F 1 "10" V 2850 3050 50  0000 C CNN
+	1    2850 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C11
+U 1 1 52CC5400
+P 1900 3150
+F 0 "C11" H 1950 3250 50  0000 L CNN
+F 1 "0.1uF" H 1950 3050 50  0000 L CNN
+	1    1900 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 Cefc1
+U 1 1 52CC534A
+P 1900 3400
+F 0 "Cefc1" H 1950 3500 50  0000 L CNN
+F 1 "10uF" H 1950 3300 50  0000 L CNN
+	1    1900 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L +3,3V #PWR08
+U 1 1 52CC5230
+P 2200 2400
+F 0 "#PWR08" H 2200 2360 30  0001 C CNN
+F 1 "+3,3V" H 2200 2510 30  0000 C CNN
+	1    2200 2400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

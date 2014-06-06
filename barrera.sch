@@ -1,0 +1,339 @@
+EESchema Schematic File Version 2  date Fri 06 Jun 2014 02:01:51 PM ART
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PIC32MX250F128B
+LIBS:opto_npn_2
+LIBS:lm1117
+LIBS:lm2596
+LIBS:L298
+LIBS:tcrt5000
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 5 5
+Title "barrera"
+Date "23 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 7700 4950
+Wire Wire Line
+	7650 4950 7800 4950
+Wire Wire Line
+	7800 4950 7800 4800
+Wire Wire Line
+	7800 4800 8350 4800
+Connection ~ 7700 5550
+Wire Wire Line
+	7700 5550 7700 5250
+Wire Wire Line
+	7700 5250 7650 5250
+Wire Wire Line
+	6400 4950 6300 4950
+Wire Wire Line
+	6300 4950 6300 4850
+Connection ~ 7700 4300
+Wire Wire Line
+	7700 4350 7700 4300
+Connection ~ 1850 4300
+Wire Wire Line
+	1850 4350 1850 4300
+Connection ~ 1850 5550
+Wire Wire Line
+	1850 5550 1850 5200
+Wire Wire Line
+	1850 5200 1950 5200
+Connection ~ 3250 4900
+Wire Wire Line
+	3250 4850 3250 4900
+Wire Wire Line
+	4000 4800 3300 4800
+Wire Wire Line
+	9100 4300 1250 4300
+Wire Wire Line
+	9600 4300 9600 4400
+Connection ~ 4400 4400
+Wire Wire Line
+	4500 4400 4400 4400
+Wire Wire Line
+	1550 4300 1550 4750
+Wire Wire Line
+	1250 5550 9600 5550
+Connection ~ 5700 5550
+Wire Wire Line
+	9600 5050 9600 4800
+Connection ~ 9600 4900
+Wire Wire Line
+	5700 5550 5700 5500
+Wire Wire Line
+	5700 5100 5700 4800
+Wire Wire Line
+	3700 5200 3800 5200
+Wire Wire Line
+	3800 5200 3800 5000
+Wire Wire Line
+	7900 4300 7900 4950
+Wire Wire Line
+	4400 4300 4400 4500
+Wire Wire Line
+	3800 5000 4000 5000
+Wire Wire Line
+	8750 4300 8750 4500
+Wire Wire Line
+	8750 5300 8750 5550
+Connection ~ 8750 4300
+Connection ~ 7900 5550
+Connection ~ 7900 4300
+Connection ~ 8750 5550
+Connection ~ 4400 5550
+Connection ~ 3550 4300
+Connection ~ 3550 5550
+Connection ~ 4400 4300
+Wire Wire Line
+	4400 5300 4400 5550
+Connection ~ 1550 4300
+Wire Wire Line
+	7900 5550 7900 5450
+Wire Wire Line
+	8350 5000 8250 5000
+Wire Wire Line
+	8250 5000 8250 5200
+Wire Wire Line
+	8250 5200 8050 5200
+Connection ~ 5700 4900
+Wire Wire Line
+	9600 5550 9600 5450
+Wire Wire Line
+	3550 4300 3550 4950
+Wire Wire Line
+	3550 5450 3550 5550
+Wire Wire Line
+	9350 4900 9900 4900
+Wire Wire Line
+	1550 5150 1550 5550
+Connection ~ 1550 5550
+Wire Wire Line
+	5000 4400 5700 4400
+Wire Wire Line
+	3200 4900 3300 4900
+Wire Wire Line
+	3300 4900 3300 4800
+Wire Wire Line
+	3250 4350 3250 4300
+Connection ~ 3250 4300
+Wire Wire Line
+	3200 5200 3250 5200
+Wire Wire Line
+	3250 5200 3250 5550
+Connection ~ 3250 5550
+Wire Wire Line
+	1950 4900 1850 4900
+Wire Wire Line
+	1850 4900 1850 4850
+Wire Wire Line
+	5900 4900 5000 4900
+Wire Wire Line
+	6300 4350 6300 4300
+Connection ~ 6300 4300
+Wire Wire Line
+	6400 5250 6300 5250
+Wire Wire Line
+	6300 5250 6300 5550
+Connection ~ 6300 5550
+Wire Wire Line
+	7700 4950 7700 4850
+$Comp
+L TCRT5000 U7
+U 1 1 53469F1C
+P 7050 5150
+F 0 "U7" H 7250 5450 60  0000 C CNN
+F 1 "TCRT5000" H 7100 4950 60  0000 C CNN
+	1    7050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TCRT5000 U6
+U 1 1 53469EA8
+P 2600 5100
+F 0 "U6" H 2800 5400 60  0000 C CNN
+F 1 "TCRT5000" H 2650 4900 60  0000 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+Text HLabel 9900 4900 2    60   Input ~ 0
+B2
+Text HLabel 5900 4900 2    60   Input ~ 0
+B1
+Text HLabel 1250 5550 0    60   Input ~ 0
+GND
+Text HLabel 1250 4300 0    60   Input ~ 0
+3.3V
+$Comp
+L R R12
+U 1 1 52EAE995
+P 9350 4300
+F 0 "R12" V 9430 4300 50  0000 C CNN
+F 1 "100" V 9350 4300 50  0000 C CNN
+	1    9350 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R8
+U 1 1 52EAE994
+P 7700 4600
+F 0 "R8" V 7780 4600 50  0000 C CNN
+F 1 "1k" V 7700 4600 50  0000 C CNN
+	1    7700 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D7
+U 1 1 52EAE992
+P 9600 4600
+F 0 "D7" H 9600 4700 50  0000 C CNN
+F 1 "LED" H 9600 4500 50  0000 C CNN
+	1    9600 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV2
+U 1 1 52EAE98D
+P 7900 5200
+F 0 "RV2" H 7900 5100 50  0000 C CNN
+F 1 "10k" H 7900 5200 50  0000 C CNN
+	1    7900 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L LM393 U2
+U 2 1 52EAE98C
+P 8850 4900
+F 0 "U2" H 9000 5050 60  0000 C CNN
+F 1 "LM393" H 9050 4700 60  0000 C CNN
+	2    8850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 52EAE989
+P 6300 4600
+F 0 "R6" V 6380 4600 50  0000 C CNN
+F 1 "100" V 6300 4600 50  0000 C CNN
+	1    6300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 52EAE988
+P 9600 5250
+F 0 "C8" H 9650 5350 50  0000 L CNN
+F 1 ".1uf" H 9650 5150 50  0000 L CNN
+	1    9600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 525D8F36
+P 1550 4950
+F 0 "C6" H 1600 5050 50  0000 L CNN
+F 1 ".1uf" H 1600 4850 50  0000 L CNN
+	1    1550 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C7
+U 1 1 525C2640
+P 5700 5300
+F 0 "C7" H 5750 5400 50  0000 L CNN
+F 1 ".1uf" H 5750 5200 50  0000 L CNN
+	1    5700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 525C23ED
+P 1850 4600
+F 0 "R5" V 1930 4600 50  0000 C CNN
+F 1 "100" V 1850 4600 50  0000 C CNN
+	1    1850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM393 U2
+U 1 1 525B46AD
+P 4500 4900
+F 0 "U2" H 4650 5050 60  0000 C CNN
+F 1 "LM393" H 4700 4700 60  0000 C CNN
+	1    4500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV1
+U 1 1 525C0D73
+P 3550 5200
+F 0 "RV1" H 3550 5100 50  0000 C CNN
+F 1 "10k" H 3550 5200 50  0000 C CNN
+	1    3550 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D6
+U 1 1 525B4746
+P 5700 4600
+F 0 "D6" H 5700 4700 50  0000 C CNN
+F 1 "LED" H 5700 4500 50  0000 C CNN
+	1    5700 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 525B459D
+P 3250 4600
+F 0 "R7" V 3330 4600 50  0000 C CNN
+F 1 "1k" V 3250 4600 50  0000 C CNN
+	1    3250 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R11
+U 1 1 525B458F
+P 4750 4400
+F 0 "R11" V 4830 4400 50  0000 C CNN
+F 1 "100" V 4750 4400 50  0000 C CNN
+	1    4750 4400
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
